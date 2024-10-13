@@ -7,15 +7,15 @@ public class Time {
 	public static void main(String[] args) {
 		// Convert a given number(Seconds) into minutes, hours.
 		
-		Scanner UserInput = new Scanner(System.in);
+		Scanner userInput = new Scanner(System.in);
 		System.out.print("Enter Seconds: ");
-		int Seconds = UserInput.nextInt();
+		int seconds = userInput.nextInt();
 		
-		double Minutes = Seconds/60;
-		double Hours = Minutes/60;
+		double minutes = seconds/60;
+		double hours = minutes/60;
 		
-		System.out.println("The no of Minutes: " +Minutes);
-		System.out.println("The no of Hours: " +Hours);
+		System.out.println("The no of Minutes: " +minutes);
+		System.out.println("The no of Hours: " +hours);
 
 	}
 
