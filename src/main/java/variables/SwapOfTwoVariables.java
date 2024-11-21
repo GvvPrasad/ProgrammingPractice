@@ -8,7 +8,7 @@ public class SwapOfTwoVariables {
 
 	public static void main(String[] args) {
 		// Swapping number without using a third variable
-		swapNumber();
+		//swapNumber();
 		
 		// Swapping Strings without using a third variable
 		swapStrings();
@@ -35,8 +35,7 @@ public class SwapOfTwoVariables {
 		stringTwo = stringOne.substring(0,(stringOne.length()-stringTwo.length()));
 		stringOne = stringOne.substring(stringTwo.length());
 		
-		System.out.println(stringOne);
-		System.out.println(stringTwo);
+		System.out.println(stringOne +" "+ stringTwo);
 		
 	}
 }
